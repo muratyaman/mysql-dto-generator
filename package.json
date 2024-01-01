@@ -1,0 +1,39 @@
+{
+  "name": "mysql-dto-generator",
+  "version": "1.0.0",
+  "description": "Tool to generate TypeScript DTO models for tables in a MySQL database using information schema ",
+  "main": "build/index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratyaman/mysql-dto-generator.git"
+  },
+  "keywords": [
+    "dto",
+    "model",
+    "mysql",
+    "information",
+    "schema",
+    "typescript",
+    "generator"
+  ],
+  "author": "Haci Murat Yaman",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/muratyaman/mysql-dto-generator/issues"
+  },
+  "homepage": "https://github.com/muratyaman/mysql-dto-generator#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
